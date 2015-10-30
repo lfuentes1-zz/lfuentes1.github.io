@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "minecraft-font"; /*a name to be used later*/
+    src: url('/fonts/Minecrafter.Alt.ttf'); /*URL to font*/
+}
+
+body {
+	font-family: "minecraft-font";
+	background: url("/img/background.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+}
+
+ h1 {
+	text-align: center;
+	text-shadow: 1px 0 white, 0 1px black, 5px 0 black, 0 -1px white;
+	font-size: 75px;
+}
+
+h3 {
+	text-align: center;
+	text-shadow: 1px 0 white, 0 1px black, 5px 0 black, 0 -1px white;
+	font-size: 50px;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+.cursor-pickboard {
+	/*display: table;*/
+	/*margin-left: auto;
+	margin-right: auto;*/
+	position: absolute;
+}
+
+/*.cursor {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border: 1px solid transparent;
+	margin-top: 300px;
+	position: relative;
+}*/
+
+
+.cursor {
+	position: absolute;
+	/*padding: 10px 25px 10px 25px;*/
+	/*margin-left: 460px;*/
+	background-color: transparent;
+
+}
+
+.cursor:focus {
+	outline: none;
+}
+
+.cursor-1 {
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 200px;
+}
+
+.cursor-2 {
+	position: absolute;
+}
+
+.cursor-3 {
+	position: absolute;
+} 

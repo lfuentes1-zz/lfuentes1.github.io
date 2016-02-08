@@ -1,1 +1,0 @@
-README.md file to my site hosted on GitPages and accessable through http://lfuentes1.github.io
